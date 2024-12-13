@@ -249,6 +249,11 @@
   gap: 10px;
 }
 
+img {
+  object-fit: cover;
+  width: 100%;
+}
+
 .footer {
   display: grid;
   grid-column: 1;
@@ -344,11 +349,6 @@
     padding-bottom: 10px;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-  }
-  
-  img {
-    object-fit: cover;
-    width: 100%;
   }
 
   
