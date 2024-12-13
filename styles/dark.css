@@ -1,32 +1,36 @@
 .page.theme_dark {
-  background-image: url(../images/cover-image-dark.png);
+  --cover-image: url("../images/cover-image-dark.png");
   
-  --accent-color: var(--color-neon-1);
-  --accent-color-title: var(--color-neon-2);
-  --title-decor-color: var(--color-neon-2);
-  --border-block-color: var(--color-neon-2);
-  --header__theme-menu-item-color: var(--color-neon-2);
-  --text-color: var(--color-pink-3);
-  --link-accent-color: var(--color-neon-2);
-  --link-border-color: var(--color-pink-3);
-  --link-underline-color: var(--color-pink-3);
-  --h3-h4-color: var(--color-black-3);
+  --accent-color: #FF0070;
+  --accent-color-title: #DB00FF;
+  --title-text-color: #000028;
+  --title-decor-color: #FF0070;
+  --border-block-color: #FF0070;
+  --header-theme-item-color: #FF0070;
+  --text-color: #F1B2CE;
+  --link-accent-color: #FF0070;
+  --link-border-color: #F1B2CE;
+  --link-underline-color: #F1B2CE;
+  --accent-title-color: #000028;
 
   --rec-visibility: visible;
 }
 
   @media (prefers-color-scheme: dark) {
     :root {
-      --accent-color: var(--color-neon-1);
-      --accent-color-title: var(--color-neon-2);
-      --title-decor-color: var(--color-neon-2);
-      --border-block-color: var(--color-neon-2);
-      --header__theme-menu-item-color: var(--color-neon-2);
-      --text-color: var(--color-pink-3);
-      --link-accent-color: var(--color-neon-2);
-      --link-border-color: var(--color-pink-3);
-      --link-underline-color: var(--color-pink-3);
-      --h3-h4-color: var(--color-black-3);
+      --cover-image: url("../images/cover-image-dark.png");
+
+      --accent-color: #FF0070;
+      --accent-color-title: #DB00FF;
+      --title-text-color: #000028;
+      --title-decor-color: #FF0070;
+      --border-block-color: #FF0070;
+      --header-theme-item-color: #FF0070;
+      --text-color: #F1B2CE;
+      --link-accent-color: #FF0070;
+      --link-border-color: #F1B2CE;
+      --link-underline-color: #F1B2CE;
+      --accent-title-color: #000028;
     
       --rec-visibility: visible;
     }
