@@ -1,4 +1,29 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --cover-image: url("../images/cover-image-light.png");
+  
+  --color-black-1: #353430;
+  --color-black-2: #32312D66;
+  --color-black-3: #000028;
+
+
+  --color-pink-1: #ff8dcb;
+  --color-pink-2: #FFC2E8;
+  --color-pink-3: #F1B2CE;
+
+  --color-neon-1: #DB00FF;
+  --color-neon-2: #FF0070;
+
+  --accent-color: var(--color-pink-1);
+  --accent-color-title: var(--color-pink-2);
+  --title-decor-color: var(--color-pink-1);
+  --border-block-color: var(--color-black-1);
+  --border-block-color-hover: var(--color-black-2);
+  --header__theme-menu-item-color: var(--color-black-1);
+  --text-color: var(--color-black-1);
+  --link-accent-color: var(--color-pink-1);
+  --link-border-color: var(--color-black-1);
+  --link-underline-color: var(--color-black-1);
+  --h3-h4-color: var(--color-black-1);
+
+  --rec-visibility: hidden;
+}
