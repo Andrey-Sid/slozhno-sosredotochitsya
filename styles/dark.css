@@ -6,6 +6,7 @@
   --title-text-color: #000028;
   --title-decor-color: #FF0070;
   --border-block-color: #FF0070;
+  --border-block-color-hover: 255, 0, 112;
   --header-theme-item-color: #FF0070;
   --text-color: #F1B2CE;
   --link-accent-color: #FF0070;
@@ -25,7 +26,7 @@
       --title-text-color: #000028;
       --title-decor-color: #FF0070;
       --border-block-color: #FF0070;
-      --header-theme-item-color: #FF0070;
+      --border-block-color-hover: 255, 0, 112;
       --text-color: #F1B2CE;
       --link-accent-color: #FF0070;
       --link-border-color: #F1B2CE;

@@ -18,6 +18,7 @@
   display: grid;
   position: relative;
   align-items: center;
+  height: 100vh;
   grid-column: 1;
   min-height: 668px;
   padding: 10px;
@@ -115,7 +116,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--border-block-color, 0.4);
+  border: 1px solid rgba(var(--border-block-color-hover), 0.4);
 }
 
 .header__theme-menu-button:focus {
@@ -138,7 +139,7 @@
   padding-bottom: 30px;
 }
 
-.header-and-footer-title {
+.page-title {
   font-family: IBM Plex Mono, sans-serif;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: 700;
@@ -253,6 +254,7 @@
   grid-column: 1;
   padding: 10px;
   min-height: 668px;
+  height: 100vh;
 }
 
 .footer-title {
@@ -285,7 +287,7 @@
     padding-bottom: 46px;
   }
 
-  .header-and-footer-title {
+  .page-title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
@@ -402,7 +404,7 @@
     padding-left: 20px;
   }
 
-  .header-and-footer-title {
+  .page-title {
     padding-top: 119px;
   }
 
